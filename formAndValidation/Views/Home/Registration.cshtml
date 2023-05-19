@@ -1,0 +1,39 @@
+﻿
+@{
+    ViewBag.Title = "Registration";
+}
+
+<h2>Registration</h2>
+
+<form action="" method="post">
+    Name: <input input type="text" name="Name" placeholder="Name" value="@(Model == null ? "" : Model.Name)" />
+    ID: <input input type="text" name="Id" placeholder="ID" /> <br /><br />
+
+
+    Gendar: <input type="radio" id="male" name="gender" value="male">
+    <label for="gender">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br>
+
+    <label>Profession:</label>
+    <<select name="profession">
+        <option value="Student">Student</option>
+        <option value="Student">Doctor</option>
+        <option value="Student">Engineer</option>
+        <option value="Student">Maolana</option>
+    </select> <br />
+    <label>Hobbies: </label><br />
+    <input type="checkbox" name="Hobbies[]" id="music" />
+    <label for="music">Music</label><br />
+    <input type="checkbox" name="Hobbies[]" id="sports" />
+    <label for="sports">Sports</label><br />
+    <input type="checkbox" name="Hobbies[]" id="games" />
+    <label for="games">Games</label><br />
+    <input type="checkbox" name="Hobbies[]" id="Travelling" />
+    <label for="travelling">Travelling</label><br />
+
+    <label for="dob">Date of Birth: </label>
+    <input type="date" id="dob" name="Dob"><br />
+    <input type="submit" value="Submit" class="btn btn-success" />
+
+</form>

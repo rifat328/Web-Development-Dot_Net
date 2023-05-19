@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+<form action="/Student2/Create" method="post">
+    Name:<input type="text" name="Name" class="form-control" /><br />
+    
+    Dob:<input type="text" name="Dob" class="form-control" /> <br />
+    Gender:<input type="radio" name="Gender" class="form-control" value="Male"/>Male <br />
+    <input type="radio" name="Gender" class="form-control" value="Female"/>Female <br />
+
+    <input type="submit" value="Add Student" class="btn btn-primary">
+
+</form>

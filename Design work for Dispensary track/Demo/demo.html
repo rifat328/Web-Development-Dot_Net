@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script>
+        var app = angular.module("my-app", []);
+        app.controller('first_controller', function ($scope) {
+            $scope.name = "Rifat Hossain";
+        });
+        app.controller('second_controller', function ($scope) {
+            $scope.name = "Abu Bakkar siddik";
+        });
+        app.controller('third_controller', function ($scope) {
+            $scope.names = ['rifat', 'sifat', 'himel', "karim"];
+        });
+        app.controller('login_ctrl', function ($scope) {
+            $scope.login = function () {
+                window.v = $scope.l;
+                console.log(v);
+                debugger;
+            };
+        });
+
+    </script>
+
+    <title>Angularjs Demo</title>
+</head>
+
+<body ng-app="my-app">
+
+    <div ng-controller="first_controller">
+        <input type="text" ng-model="name">
+        <p ng-bind="name"></p>
+    </div>
+
+    <div ng-controller="second_controller">
+        <input type="text" ng-model="name">
+        <p>{{name}}</p>
+    </div>
+    <div ng-controller="third_controller">
+        <ul>
+            <li ng-repeat="n in names">{{n}}</li>
+            <table border="1">
+                <tr ng-repeat="n in names">{{n}}</tr>
+            </table>
+        </ul>
+    </div>
+    <div ng-controller="login_ctrl">
+        <form ng-submit="login()">
+            <input type="text" ng-model="l.uname" placeholder="Username"><br>
+            <input type="password" ng-model="l.pass" placeholder="Password"><br>
+            <input type="submit">
+        </form>
+    </div>
+</body>
+
+</html>

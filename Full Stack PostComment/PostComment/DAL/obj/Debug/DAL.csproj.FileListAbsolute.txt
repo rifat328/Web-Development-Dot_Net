@@ -1,0 +1,14 @@
+G:\Code\C#\Full Stack PostComment\PostComment\DAL\bin\Debug\DAL.dll.config
+G:\Code\C#\Full Stack PostComment\PostComment\DAL\bin\Debug\DAL.dll
+G:\Code\C#\Full Stack PostComment\PostComment\DAL\bin\Debug\DAL.pdb
+G:\Code\C#\Full Stack PostComment\PostComment\DAL\bin\Debug\EntityFramework.dll
+G:\Code\C#\Full Stack PostComment\PostComment\DAL\bin\Debug\EntityFramework.SqlServer.dll
+G:\Code\C#\Full Stack PostComment\PostComment\DAL\bin\Debug\EntityFramework.xml
+G:\Code\C#\Full Stack PostComment\PostComment\DAL\bin\Debug\EntityFramework.SqlServer.xml
+G:\Code\C#\Full Stack PostComment\PostComment\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+G:\Code\C#\Full Stack PostComment\PostComment\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+G:\Code\C#\Full Stack PostComment\PostComment\DAL\obj\Debug\DAL.csproj.CopyComplete
+G:\Code\C#\Full Stack PostComment\PostComment\DAL\obj\Debug\DAL.dll
+G:\Code\C#\Full Stack PostComment\PostComment\DAL\obj\Debug\DAL.pdb
+G:\Code\C#\Full Stack PostComment\PostComment\DAL\obj\Debug\DAL.Migrations.initDB.resources
+G:\Code\C#\Full Stack PostComment\PostComment\DAL\obj\Debug\DAL.csproj.GenerateResource.cache

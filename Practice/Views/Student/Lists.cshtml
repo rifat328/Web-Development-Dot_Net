@@ -1,0 +1,23 @@
+﻿@model List<Practice.Models.Student>
+@{
+    ViewBag.Title = "Lists";
+}
+
+<table class="table table-condensed">
+    <tr>
+        <th>Name</th>
+        <th>Id</th>
+        <th>Dob</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Name</td>
+            <td>@item.Id</td>
+            <td>@item.Dob</td>
+        </tr>
+    }
+
+
+</table>
+

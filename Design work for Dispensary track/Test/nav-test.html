@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My App</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular-route.min.js"></script>
+    <link rel="stylesheet" href="./nav-bar test.css">
+    <link rel="stylesheet" href="nav-test.css">
+</head>
+
+<body>
+    <div id="nav-bar" ng-controller="NavController">
+        <a href="#/home">Home</a>
+        <a href="#/about">About</a>
+        <a href="#/contact">Contact</a>
+    </div>
+
+    <div id="content">
+        <ng-view></ng-view>
+    </div>
+
+    <script src="./nav-test.js"></script>
+</body>
+
+</html>

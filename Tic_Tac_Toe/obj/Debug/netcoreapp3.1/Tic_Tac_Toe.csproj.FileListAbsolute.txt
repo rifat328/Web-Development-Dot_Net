@@ -1,0 +1,17 @@
+D:\Practice C# Folder\Tic_Tac_Toe\bin\Debug\netcoreapp3.1\Tic_Tac_Toe.exe
+D:\Practice C# Folder\Tic_Tac_Toe\bin\Debug\netcoreapp3.1\Tic_Tac_Toe.deps.json
+D:\Practice C# Folder\Tic_Tac_Toe\bin\Debug\netcoreapp3.1\Tic_Tac_Toe.runtimeconfig.json
+D:\Practice C# Folder\Tic_Tac_Toe\bin\Debug\netcoreapp3.1\Tic_Tac_Toe.runtimeconfig.dev.json
+D:\Practice C# Folder\Tic_Tac_Toe\bin\Debug\netcoreapp3.1\Tic_Tac_Toe.dll
+D:\Practice C# Folder\Tic_Tac_Toe\bin\Debug\netcoreapp3.1\Tic_Tac_Toe.pdb
+D:\Practice C# Folder\Tic_Tac_Toe\obj\Debug\netcoreapp3.1\Tic_Tac_Toe.csproj.AssemblyReference.cache
+D:\Practice C# Folder\Tic_Tac_Toe\obj\Debug\netcoreapp3.1\Tic_Tac_Toe.Form1.resources
+D:\Practice C# Folder\Tic_Tac_Toe\obj\Debug\netcoreapp3.1\Tic_Tac_Toe.csproj.GenerateResource.cache
+D:\Practice C# Folder\Tic_Tac_Toe\obj\Debug\netcoreapp3.1\Tic_Tac_Toe.GeneratedMSBuildEditorConfig.editorconfig
+D:\Practice C# Folder\Tic_Tac_Toe\obj\Debug\netcoreapp3.1\Tic_Tac_Toe.AssemblyInfoInputs.cache
+D:\Practice C# Folder\Tic_Tac_Toe\obj\Debug\netcoreapp3.1\Tic_Tac_Toe.AssemblyInfo.cs
+D:\Practice C# Folder\Tic_Tac_Toe\obj\Debug\netcoreapp3.1\Tic_Tac_Toe.csproj.CoreCompileInputs.cache
+D:\Practice C# Folder\Tic_Tac_Toe\obj\Debug\netcoreapp3.1\Tic_Tac_Toe.dll
+D:\Practice C# Folder\Tic_Tac_Toe\obj\Debug\netcoreapp3.1\Tic_Tac_Toe.pdb
+D:\Practice C# Folder\Tic_Tac_Toe\obj\Debug\netcoreapp3.1\Tic_Tac_Toe.genruntimeconfig.cache
+D:\Practice C# Folder\Tic_Tac_Toe\obj\Debug\netcoreapp3.1\Tic_Tac_Toe.Properties.Resources.resources

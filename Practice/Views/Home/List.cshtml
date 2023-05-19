@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewBag.Title = "List";
+}
+
+<h2>List</h2>
+<table class="table table-bordered">
+    <tr>
+
+        <td>
+            <h3>
+                Names
+            </h3>
+        </td>
+        <td>
+            <h3>
+                ID
+            </h3>
+        </td>
+
+    </tr>
+    @for (int i = 0; i < ViewBag.Names.Length; i++)
+    {
+        <tr>
+            <td>
+                @ViewBag.Names[i];
+            </td>
+            <td>
+                @ViewBag.Id[i];
+            </td>
+        </tr>
+    }
+    @foreach (string item in ViewBag.Names)
+    {
+
+        <tr>
+            <td>@item</td>
+        </tr>
+
+        <tr>
+            <td>@ViewBag.Id</td>
+        </tr>
+        
+    }
+  
+
+</table>
+
